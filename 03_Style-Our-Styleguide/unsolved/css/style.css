@@ -3,6 +3,7 @@
  height: 250px;
  max-height: 500px;
  background-image: url(../images/upsBackground.png);
+ background-image: image(url(../../../Hero Image.jpg));
  background-size: cover;
  background-repeat: no-repeat;
  background-position: bottom;

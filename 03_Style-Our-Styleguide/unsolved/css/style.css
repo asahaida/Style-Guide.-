@@ -6,6 +6,9 @@
  background-image: image(url(../../../Hero Image.jpg));
  background-image: <img src="images/Hero Image.jpg" alt="Header">;
  background-image: <img src="images/Hero Image.jpg">;
+
+
+ background-image: <img src="images/Hero Image.jpg";
  background-size: cover;
  background-repeat: no-repeat;
  background-position: bottom;

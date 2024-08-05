@@ -1,48 +1,128 @@
 /* Header Styles */
 .header {
- height: 250px;
- max-height: 500px;
-
-
- background-image: <img src="images/Hero Image.jpg";
- background-size: cover;
- background-repeat: no-repeat;
- background-position: bottom;
-}
-#pageTopic {
-  text-align: center;
-} 
-/* Primary Color */
-.colorContainer {
-    display: inline-block;
-    margin: 15px;
-}
-.swatch {
-   height: 200px;
-   width: 170px;
-   border: 1px solid black;
-}
-.hexCode {
-   padding: 15px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-height: 500px;
+   height: 250px;
+   background-position: bottom;
+ }
+ #pageTopic {
    text-align: center;
-   border: 1px solid black;
-   border-top: none;
-   border-bottom-left-radius: 7px;
-   border-bottom-right-radius: 7px;
-}
-/* Typography CSS */
-.type_container {
+   font-size: 30px;
+   font-weight: 900;
+ }
+ /* Primary Color */
+ .colorContainer {
    display: inline-block;
-   margin: 20px;
-}
-
-/* UI Elements */
-.button {
-   display: inline-block;
-   padding: 15px;
    margin: 15px;
-   width: 150px;
-   text-align: center;
-   color: white;
-   outline: 1px solid red;
+ }
+ .swatch {
+    height: 200px;
+    width: 170px;
+    border: 1px solid black;
+ }
+ .hexCode {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+ }
+ .darkBlue {
+   background-color: #180B51;
+ }
+ .faintGreen {
+   background-color: #16DFB7;
+ }
+ .hotpink {
+   background-color: #D216A1;
+ }
+ .midblue {
+   background-color: #3167E1;
+ }
+ .purple {
+   background-color: #7501BC;
+ }
+ .lightpurple {
+   background-color: #B948F0;
+ }
+ .lightpink {
+   background-color: #FFAFF7;
+ }
+ .brickred {
+   background-color: #13A0F6;
+ }
+ .lightGreen {
+   background-color: #8ABE48;
+ }
+ /* Typography CSS */
+ .type_container {
+    display: inline-block;
+    margin: 20px;
+ }
+ .large {
+     font-size: 66px;
+     margin-bottom: 15px;
+     margin-bottom: 15px;
+     margin-top: 0;
+ }
+ .light {
+     font-weight: 100;
+ }
+ .regular {
+     font-weight: 500;
+ }
+ .bold {
+     font-weight: 700;
+ }
+ .typography h1 {
+     font-weight: 900;
+     font-size: 50px;
+ }
+ .typography h2 {
+     font-weight: 700;
+     font-size: 42px;
+ }
+ .typography h3 {
+     font-weight: 700;
+     font-size: 34px;
+ }
+ .typography h4 {
+     font-size: 26px;
+ }
+ 
+ /* UI Elements */
+ .button {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+ }
+
+ /* darkBlue */
+ .primary {
+   border-color: #180B51;
+   color: #180B51; 
+
+ }
+
+ .primaryActive {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
 }
+.primaryActive {
+   background-color: #180B51;
+}
+ .sectionHead {
+   border-bottom: 8px solid #DDDDDD;
+ }
+ 
